@@ -1,0 +1,1585 @@
+@font-face{
+
+    font-family:'lato';
+    src: url('https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Ffonts%2FLato%2FLato-Regular.ttf');
+}
+@font-face{
+
+    font-family:'hut';
+    src: url('https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Ffonts%2Fhut%2Fhut.ttf');
+}
+
+.w-hide {
+	display: none;
+}
+
+header{
+	background-image: url(https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Fimages%2Fmain.jpg);
+}
+
+.logo{
+	width: 34%;
+	padding: 0% 0% 0% 0%;
+}
+
+body {margin:0;}
+
+/*.topnav {
+  overflow: hidden;
+  margin-top: 10%;
+
+}*/
+
+/*.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 0% 4%;
+  text-decoration: none;
+  font-size: 120%;
+
+}*/
+
+/*.topnav a:hover {
+  color: #c0cf9d;
+}
+*/
+/*.topnav .icon {
+  display: none;
+}*/
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8% 5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: grey;
+}
+
+.active {
+  /*background-color: #4CAF50;*/
+  background-color: transparent;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 699px) {
+	.topnav a {
+	  float: right;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 3% 5%;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+}
+
+
+@media screen and (max-width: 699px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+.topnav1 {
+  overflow: hidden;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 10%; 
+}
+
+.topnav1 a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 0% 3%;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.diamond{
+	text-align: center;
+	font-size: 120%;
+}
+
+.topnav1 a:hover {
+  color: #c0cf9d;
+}
+
+.topnav1 .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav1 a:not(:first-child) {display: none;}
+  .topnav1 a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav1.responsive {position: relative;}
+  .topnav1.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav1.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+.diskon{
+	font-size: 130%;
+	margin-bottom: 12%;
+}
+
+
+.brand{
+	width: 49%;
+	padding: 5% 0 0% 0;
+}
+
+.about{
+	width: 15%;
+	margin: 6% 0 14% 0;
+}
+
+.logo2{
+	width: 8%;
+	margin-bottom: 3%;
+	
+}
+
+.discover{
+	font-size: 190%;
+	margin: 5% 0 3% 0;
+}
+
+.read{
+	width: 15%;
+	margin: 2% 0 9% 0;
+}
+
+.a1{
+	width: 113%; 
+	margin-right: -37%;
+}
+
+.a12{
+	width: 113%;
+	margin-top: 20%;	
+	margin-left: -8%;
+}
+
+.our{
+	font-size: 170%;
+}
+
+.line{
+	width: 16%;
+	margin: 10% 0 10% 0;
+}
+.line2{
+	width: 16%;
+	margin: 4% 0 10% 0;
+}
+
+.ourblock{
+	padding: 4% 4% 5% 4%;
+	background-color: white;
+	margin-top: 8%;
+	margin-left: -2%;
+}
+.ourblock2{
+	padding: 4% 6% 6% 6%;
+	background-color: white;
+	margin-top: 0%;
+	margin-left: 3%;
+
+}
+
+.space{
+	margin-top: 0%;
+}
+
+.read2{
+	width: 50%;
+	margin-top: 8%;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+.slideGo{
+	margin-top: 7%;
+	background-image: url(https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Fimages%2Fslide.jpg);
+	background-attachment: fixed;
+}
+
+
+.ourblock3{
+	padding: 4% 6% 6% 6%;
+	background-color: white;
+	margin-top: 10%;
+	margin-bottom: 15%;
+}
+.ourblock4{
+	padding: 4% 6% 6% 6%;
+	background-color: white;
+	margin-top: 10%;
+	margin-bottom: 11%;
+}
+
+.white{
+	background-color: white;
+	margin-top: 3%;
+}
+
+.h1p2{
+	padding-top: 8%;
+	padding-bottom: -1%;
+	font-family: hut;
+	font-size: 400%;
+	color: #34495e;
+}
+
+.apple{
+	width: 90%;
+	margin-top: 10%;
+}
+.button{
+	width: 80%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
+.book1{
+	margin-top: 30%;
+}
+
+.gel1{
+margin-top: 6%;
+margin-bottom: 5%;
+}
+.gel2{
+margin-top: 6%;
+
+}
+
+.sb1{
+	width: 100%;
+	margin-bottom: 7%;
+}
+
+.sb2{
+	width: 75%;
+	margin-bottom: 7%;
+}
+
+
+footer{
+	margin-top: 0%;
+	background-image: url(https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Fimages%2Fmain.jpg);
+}
+.footer1{
+	margin-top: 5%;
+	padding-top: 1%;
+	padding-bottom: 0%;
+	background-color: #504f45;
+}
+
+
+.logoFooter{
+	width: 50%;
+	margin: 18% 0 18% 0;
+}
+
+.sayfooter{
+	margin-top: 80%;
+	color: white;
+	font-size: 96%;
+}
+
+.super{
+	background-image: url(https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Fimages%2Fbackground2.jpg);
+}
+
+.footmenu{
+	margin-top: 30%;
+	color: white;
+	margin-bottom: 50%;
+	font-family: lato;
+}
+
+.footmenu p{
+	font-size: 88%;
+}
+
+.Copyright{
+	color: white;
+}
+
+
+
+/*ABOUT*/
+
+.header2{
+	background-color: #504f45;
+	
+
+}
+
+.puldown{
+	padding-top: 2%;
+	padding-bottom: 2%;	
+}
+
+
+.banner{
+	padding: 5% 0% 3% 0%;
+	width: 13%;
+}
+
+ .ourx{
+	font-size: 230%;
+	padding-top: 5%;
+	margin-top: 9%;
+}
+.always{
+	font-size: 170%;
+}
+
+.next{
+	padding: 3% 0% 3% 0% ;
+}
+.next p{
+	font-size: 110%;
+}
+
+
+.album{
+	width: 80%;
+	margin: 15% 0 0 0;
+}
+.go{
+	margin-top: 25%;
+	font-family: lato;
+}
+.go2{
+	margin: 28% 0 7% 0;
+	font-family: lato;
+}
+.go3{
+	margin-top: -9%;
+	margin-bottom: 6%;
+	font-family: lato;
+}
+.goes{
+	margin-top: 7%;
+
+}
+
+
+.back2{
+	background-image: url(https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Fimages%2Fmodern-cafe-2.jpg);
+	background-attachment: fixed;
+	margin-top: 10%;
+}
+
+
+.events{
+	margin-top: 13%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: white;
+	font-family: lato;
+	background-image: url(https://objectstorage.ap-osaka-1.oraclecloud.com/n/axodfmvc0sfb/b/UTS/o/assets%2Fimages%2Fb1.png);
+}
+
+.get{
+	background-image: url(asset/images/splash.png);
+	color: white;
+	font-size: 120%;
+
+}
+
+.evpic{
+	padding-top: 15%;
+	width: 100%;
+}
+
+.evfont{
+	font-size: 95%;
+
+}
+
+.range{
+	background-color: white;
+	padding: 1% 4% 4% 4%;
+	margin-bottom: 20%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.customer{
+	width: 77%;
+	margin: 33% 0 0 10%;
+}
+.customer1{
+	width: 77%;
+	margin: 7% 0 0 10%;
+}
+.customer1b{
+	width: 77%;
+	margin: 15% 0 0 10%;
+}
+
+.customer1c{
+	width: 90%;
+	margin: 25% 0 0 0%;
+}
+
+.customersay {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+
+}
+
+
+.row1{
+
+margin-bottom: 10%;
+
+}
+
+.customersay::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.customersay img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.customersay span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
+	/*sideNavigation*/
+
+body,html{
+		height: 100%;
+	}
+
+	/* remove outer padding */
+	.main .row{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	/*Remove rounded coners*/
+
+	nav.sidebar.navbar {
+		border-radius: 0px;
+	}
+
+	nav.sidebar, .main{
+		-webkit-transition: margin 200ms ease-out;
+	    -moz-transition: margin 200ms ease-out;
+	    -o-transition: margin 200ms ease-out;
+	    transition: margin 200ms ease-out;
+	}
+
+	/* Add gap to nav and right windows.*/
+	.main{
+		padding: 0px 0px 0 0px;
+	}
+
+	/* .....NavBar: Icon only with coloring/layout.....*/
+
+	/*small/medium side display*/
+	@media (min-width: 768px) {
+
+		/*Allow main to be next to Nav*/
+		.main{
+			position: absolute;
+			width: calc(100% - 40px); /*keeps 100% minus nav size*/
+			margin-left: 40px;
+			float: right;
+		}
+
+		/*lets nav bar to be showed on mouseover*/
+		nav.sidebar:hover + .main{
+			margin-left: 200px;
+		}
+
+		/*Center Brand*/
+		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+			margin-left: 0px;
+		}
+		/*Center Brand*/
+		nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+			text-align: center;
+			width: 100%;
+			margin-left: 0px;
+		}
+
+		/*Center Icons*/
+		nav.sidebar a{
+			padding-right: 13px;
+		}
+
+		/*adds border top to first nav box */
+		nav.sidebar .navbar-nav > li:first-child{
+			border-top: 1px #e5e5e5 solid;
+		}
+
+		/*adds border to bottom nav boxes*/
+		nav.sidebar .navbar-nav > li{
+			border-bottom: 1px #e5e5e5 solid;
+		}
+
+		/* Colors/style dropdown box*/
+		nav.sidebar .navbar-nav .open .dropdown-menu {
+			position: static;
+			float: none;
+			width: auto;
+			margin-top: 0;
+			background-color: transparent;
+			border: 0;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		/*allows nav box to use 100% width*/
+		nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+			padding: 0 0px 0 0px;
+		}
+
+		/*colors dropdown box text */
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+			color: #777;
+		}
+
+		/*gives sidebar width/height*/
+		nav.sidebar{
+			width: 200px;
+			height: 100%;
+			margin-left: -160px;
+			float: left;
+			z-index: 8000;
+			margin-bottom: 0px;
+		}
+
+		/*give sidebar 100% width;*/
+		nav.sidebar li {
+			width: 100%;
+		}
+
+		/* Move nav to full on mouse over*/
+		nav.sidebar:hover{
+			margin-left: 0px;
+		}
+		/*for hiden things when navbar hidden*/
+		.forAnimate{
+			opacity: 0;
+		}
+	}
+
+	/* .....NavBar: Fully showing nav bar..... */
+
+	@media (min-width: 1330px) {
+
+		/*Allow main to be next to Nav*/
+		.main{
+			width: calc(100% - 200px); /*keeps 100% minus nav size*/
+			margin-left: 200px;
+		}
+
+		/*Show all nav*/
+		nav.sidebar{
+			margin-left: 0px;
+			float: left;
+		}
+		/*Show hidden items on nav*/
+		nav.sidebar .forAnimate{
+			opacity: 1;
+		}
+	}
+
+	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #CCC;
+		background-color: transparent;
+	}
+
+	nav:hover .forAnimate{
+		opacity: 1;
+	}
+	section{
+		padding-left: 15px;
+	}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+  .customersay {
+      text-align: center;
+  }
+  .customersay img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+.rangecustomer{
+	width: 30%;
+}
+
+#map {
+        width: 100%;
+        height: 390px;
+        background-color: grey;
+      }
+
+.map{
+	margin: 19% 0 0 0;
+	
+}
+.map2{
+	margin: 12% 0 15% 0;
+}
+
+.backad{
+	font-size: 140%;
+	padding: 8% 4% 10% 4%;
+	background-color: #bdc3c7;
+}
+
+.backad p{
+	color : #34495e;
+	font-family: lato;
+}
+
+.Let{
+	padding: 3% 12% 3% 12%;
+	background-color: white;
+	font-size: 120%;
+}
+
+.mapbock{
+	background-color: #7f8c8d;
+	padding: 2% 2% 2% 2%;
+}
+.jhon{
+	margin bottom: 10%;
+}
+
+.member{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 115%;
+}
+
+.logoabout{
+	position: absolute;
+	width: 9%;
+	z-index: 99;
+}
+
+/*Field*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    /*padding: 12px;		ini yang membuat jadi ndak ketak separuh field e*/	
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.containerex {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 15%;
+}
+
+.containerex1 {
+    border-radius: 5px;
+    /*background-color: #f2f2f2;*/
+    padding: 20px;
+    margin-top: 20%;
+}
+
+.contactus{
+	margin-top: 30%;
+	margin-bottom: 6%;
+	font-size: 127%;
+	color: #504f45;
+}
+.Myprofile{
+	margin-top: 26%;
+	margin-bottom: 6%;
+	font-size: 260%;
+	color: #504f45;
+}
+.Myprofile2{
+	margin-top: 18%;
+	margin-bottom: 6%;
+	font-size: 260%;
+	color: #504f45;
+}
+.Myprofile1{
+	margin-top: 28%;
+	margin-bottom: 6%;
+	font-size: 260%;
+	color: #504f45;
+}
+
+.confirm{
+	font-size: 110%;
+	font-family: lato;
+}
+
+.sub p{
+	font-size: 115%;
+	color: #deb617;
+}
+.submiter{
+	background-color: black;
+}
+.space3{
+	margin-bottom: 10%;
+}
+.space6{
+	margin-top: 43%;
+}
+
+.space6a{	
+	margin-top: 20%;
+}
+
+.getit{
+	color: white;
+	font-size: 115%;
+	margin-top: 11%;
+	margin-bottom: 4%;
+}
+.superup{
+	margin-top: 13%;
+}
+.superup2{
+	margin-top: 11%;
+}
+.superdown{
+	margin-bottom: 30%;
+}
+
+/*USER*/
+
+.welUser{
+	margin-bottom: 7%;
+}
+
+.welcomeUser{
+	margin-top: 1%;
+	font-family: lato;
+	color: white;
+}
+.welcomeUser1{
+	margin-top: 1%;
+	font-family: arial;
+	color: white;
+}
+
+.nameUser{
+	font-family: lato;
+	text-align: right;
+	color: white;
+	font-size: 140%;
+	margin-top: -1%;
+
+}
+
+.howCenter td{
+	text-align: center;
+}
+
+
+@media screen and (max-width: 418px) {
+
+	.member{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.welUser{
+		margin-bottom: 0%;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+  .howCenter td{
+  	/*display: none;*/
+  	text-align: left;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+	.Myprofile{
+		margin-top: 26%;
+		margin-bottom: 6%;
+		font-size: 180%;
+		color: #504f45;
+	}
+}
+@media screen and (max-width: 330px) {
+
+	.Myprofile{
+		margin-top: 26%;
+		margin-bottom: 6%;
+		font-size: 160%;
+		color: #504f45;
+	}
+}
+
+/* @Mmedia screen */
+		/* [1024 | 940 | 820 | 370 ] */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+.them{
+	/*margin-top: 11%;*/
+}
+.them2{
+	margin-bottom: 15%;
+}
+
+	/*Logpage @media*/
+
+@media screen and (max-width: 1199px){
+
+	.w1199-hide{
+		display: none;
+	}
+
+	.w1199-show{
+		display: block;
+	}
+
+}
+
+
+@media screen and (max-width: 500px){
+	.Copyright{
+		font-size: 88%;
+		padding-top: 2%;
+
+	}
+	.footer1{
+		margin-top: 15%;
+	}
+}
+
+
+@media screen and (max-width: 435px){
+	.logoabout{
+		position: absolute;
+		width: 20%;
+		margin-top: -3%;
+		margin-left: 4%;
+	}
+}
+
+
+@media screen and (max-width: 587px) and (min-width: 436px){
+	.logoabout{
+		position: absolute;
+		width: 12%;
+		margin-top: -2%;
+		margin-left: 4%;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 588px) {
+	.logoabout{
+		position: absolute;
+		width: 12%;
+		margin-left: 4%;
+		margin-top: -2%;
+	}
+
+}
+
+@media screen and (max-width: 779px) and (min-width: 768px) {
+	.logoabout{
+		position: absolute;
+		width: 9%;
+	}
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 780px) {
+	.logoabout{
+		position: absolute;
+		width: 10%;
+	}
+	.contactSpace{
+		margin-top: 8%;
+	}
+
+}
+
+@media screen and (max-width: 1147px) and (min-width: 992px){
+	.logoabout{
+		position: absolute;
+		width: 9%;
+		margin-left: -2%; 
+	}
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1148px){
+	.logoabout{
+		position: absolute;
+		width: 9%;
+		margin-left: -8%; 
+	}
+
+}
+
+
+
+/*Index*/
+
+@media screen and (max-width: 587px) {
+	.logo{
+	width: 67%;
+	padding: 0% 0% 0% 0%;
+	}
+
+}
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	.logo{
+		position: absolute;
+		width: 45%;
+	}
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 780px) {
+	.logo{
+		position: absolute;
+		width: 40%;
+		margin-left: -12%;
+	}
+
+}
+
+@media screen and (max-width: 1147px) and (min-width: 992px){
+	.logo{
+		position: absolute;
+		width: 33%;
+		margin-left: -2%; 
+	}
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1148px){
+	.logo{
+		position: absolute;
+		width: 35%;
+		margin-left: -8%; 
+	}
+
+}
+@media screen and (max-width: 587px) {
+	.logo{
+	width: 67%;
+	padding: 0% 0% 0% 0%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 587px) {
+	.about{
+	width: 27%;
+	padding: 0% 0% 0% 0%;
+	}
+
+}
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	.about{
+		width: 23%;
+	}
+
+}
+@media screen and (max-width: 991px) and (min-width: 780px) {
+	.about{
+		margin-top: 9%;
+		width: 24%;
+	}
+
+}
+
+
+@media screen and (max-width: 587px) {
+	.discover{
+		font-size: 100%;
+		margin: 5% 0 3% 0;
+	}
+}
+
+@media screen and (max-width: 349px){
+
+	.logo2{
+		width: 20%;
+		margin-bottom: 3%;	
+	}
+}
+
+@media screen and (max-width: 587px) and (min-width: 340px){
+
+	.logo2{
+		width: 15%;
+		margin-bottom: 3%;	
+	}
+}
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	
+	.logo2{
+		width: 12%;
+		margin-bottom: 3%;	
+	}
+}
+
+
+@media screen and (max-width: 587px) {
+	.inPar1{
+		font-size: 100%;
+		text-align: justify;
+		margin: 10% 0 3% 0;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.read{
+		width: 40%;
+		margin: 2% 0 9% 0;
+	}
+}
+
+@media screen and (max-width: 587px) and (min-width: 421px) {
+	
+	.read{
+		width: 30%;
+		margin: 2% 0 9% 0;
+	}
+}
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	
+	.read{
+		width: 25%;
+		margin: 2% 0 9% 0;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 780px) {
+	.read{
+		width: 21%;
+		margin: 2% 0 9% 0;
+	}
+}
+
+
+@media screen and (max-width: 587px) {
+	.a1{
+		width: 100%; 
+		margin: 10% -9% 0% 0%;
+
+	}
+}
+
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	
+	.a1{
+		width: 100%; 
+		margin: 10% -9% 0% 0%;
+
+	}
+}
+
+
+
+@media screen and (max-width: 587px) {
+	.a12{
+		width: 100%;
+		margin: 10% 0% 0% 4%;
+	}
+}
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	
+	.a12{
+		width: 100%; 
+		margin: 10% 0% 0% 4%;
+
+	}
+}
+
+@media screen and (max-width: 587px) {
+	.ourblock{
+		padding: 4% 4% 5% 4%;
+		background-color: white;
+		margin-top: 8%;
+		margin-left: 0%;
+	}
+	.ourblock2{
+		padding: 4% 6% 6% 6%;
+		background-color: white;
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-bottom: 13%;
+
+	}
+}
+
+@media screen and (max-width: 779px) and (min-width: 588px) {
+	.ourblock{
+		padding: 4% 4% 5% 4%;
+		background-color: white;
+		margin-top: 8%;
+		margin-left: 0%;
+	}
+	.ourblock2{
+		padding: 4% 6% 6% 6%;
+		background-color: white;
+		margin-top: 0%;
+		margin-left: 0%;
+
+	}
+}
+
+
+@media screen and (max-width: 451px) {
+
+	.read2{
+		width: 40%;
+		margin-top: 8%;
+	}
+
+}
+
+@media screen and (max-width: 587px) and (min-width: 452px) {
+
+
+	.read2{
+		width: 30%;
+		margin-top: 8%;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 588px) {
+	
+	.read2{
+		width: 29%;
+		margin-top: 8%;
+	}
+}
+
+
+@media screen and (max-width: 587px) {
+	.slideGo{
+		margin-top: 7%;
+		padding-top: 7%;
+/*		background-image: url(asset/images/slide.jpg);
+		background-attachment: fixed;
+*/	}
+
+	.white{
+		background-color: white;
+		margin-top: -7%;
+
+
+	}
+}
+
+@media screen and (max-width: 460px) {
+		
+	.button{
+		width: 95%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+
+	.book1{
+		margin-top: 15%;
+	}
+}
+
+@media screen and (max-width: 587px) and (min-width: 460px) {
+	
+	.button{
+		width: 70%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+
+	.book1{
+		margin-top: 15%;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 588px) {
+	
+	.button{
+		width: 57%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+
+	.book1{
+	margin-top: 15%;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	
+	.button{
+		width: 35%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+
+	.book1{
+		margin-top: 10%;
+	}
+
+	.apple{
+		width: 50%;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.sb1{
+		width: 100%;
+		margin-bottom: 7%;
+	}
+
+	.sb2{
+		width: 100%;
+		margin-bottom: 7%;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+	
+	.sb1{
+		width: 70%;
+		margin-bottom: 7%;
+	}
+
+	.sb2{
+		width: 70%;
+		margin-bottom: 7%;
+	}
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	
+	.sb1{
+		width: 120%;
+		margin-bottom: 7%;
+	}
+
+	.sb2{
+		width: 120%;
+		margin-bottom: 7%;
+	}
+	.danger{
+		margin-left: 3%;
+	}
+}
+
+/*and (min-width: 460px)*/
+@media screen and (max-width: 587px)  {
+	
+	.sayfooter{
+		margin-top: 10%;
+		color: white;
+		font-size: 100%;
+		text-align: center;
+	}
+	.footmenu{
+		margin-top: 10%;
+		color: white;
+		margin-bottom: 10%;
+		font-family: lato;
+		text-align: center;
+	}
+	.footmenu p{
+		font-size: 88%;
+	}
+
+	.containerex1{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 588px)  {
+	
+	.sayfooter{
+		margin-top: 10%;
+		color: white;
+		font-size: 130%;
+		text-align: center;
+	}
+	.footmenu{
+		margin-top: 5%;
+		color: white;
+		margin-bottom: 5%;
+		font-family: lato;
+		text-align: center;
+	}
+	.footmenu p{
+		font-size: 100%;
+	}
+
+	.containerex1{
+		display: none;
+	}
+
+}
+
+
+.editBtn{
+	width: 28% !important;
+}
+
+	/*BUTTON ADD RESERVATION*/
+.addRev{
+	float: left;
+	margin-bottom: 2%;
+    font-size: 100% !important;
+}
+
+@media screen and (max-width: 587px)  {
+	.addRev{
+		float: left;
+		margin-bottom: 2%;
+	    font-size: 95% !important;
+	    width: 100% !important;
+	}
+
+}
+@media screen and (min-width: 588px) and (max-width: 766px)  {
+	.addRev{
+		float: right;
+		margin-bottom: 2%;
+	    font-size: 95% !important;
+	    width: 40% !important;
+	}
+
+}
+@media screen and (min-width: 767px) and (max-width: 1199px)  {
+	.addRev{
+		float: right;
+		margin-bottom: 2%;
+	    font-size: 96% !important;
+	    width: 40% !important;
+	}
+
+}
+@media screen and (min-width: 1200px)  {
+	.addRev{
+		float: right;
+/*		margin-bottom: 2%;
+	    font-size: 95% !important;
+	    width: 40% !important;*/
+	}
+
+}
+
+
+
+/*Button add Reservation*/
+
+.btn{
+    border-radius: 0;
+    width: 25%;
+}
+
+
+@media screen and (max-width: 587px)  {
+	
+	.ourx{
+
+		margin-top: 15%;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 345px) {
+	
+
+	.contactus{
+		margin-top: 20%;
+		text-align: center;
+	}
+
+	.sub{
+		font-size: 115%;
+		text-align: center;
+	}
+
+	.sub1{
+		font-size: 115%;
+		text-align: center;
+	}
+}
+
+
+@media screen and (min-width: 768px)  {
+		
+	.silent{
+		position: fixed;
+	}
+}
+
+@media screen and (max-width: 587px)  {
+	
+	.goldy li{
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 588px)  {
+	
+	.goldy li{
+		text-align: right;
+	}
+}
